@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.box.yellow{
+    background-color: yellow;
+}
+
+.box.green {
+    background-color: yellowgreen;
+}
