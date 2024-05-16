@@ -79,3 +79,21 @@ border-box: не суммируется
 
 border - внутренняя рамка
 outline - внешняя рамка
+
+box-shadow: 0 0 0px rgba(0,0,0,0.7)
+box-shadow: inset ...
+
+font-size
+font-weight: [100-900]
+color:
+text-align:
+text-decoration:
+
+
+        FLEX
+Регулировать положение flex-потомков относительно flex-контейнера.
+row, row-reverse, column, column-reverse
+
+justify-content(по основной оси): / align-items(по поперечной оси)
+flex-start/end/center/space-between
+space-between - Будут занимать все пространство, растянется
