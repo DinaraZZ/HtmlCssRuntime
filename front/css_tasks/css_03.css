@@ -3,43 +3,113 @@
     padding: 0;
     outline: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .parent {
     margin: 0 auto;
     width: 1000px;
     height: 700px;
-    background-color: aqua;
+    /*background-color: aqua;*/
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 7px;
+    border-radius: 3px;
+    border: orange 2px solid;
 }
 
 .heading {
     height: 150px;
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: orange 1px solid;
 }
 
 .heading-child {
-    background-color: orange;
+    /*background-color: orange;*/
     width: 200px;
     height: 75px;
     align-self: center;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
 }
 
 .heading-child2 {
-    background-color: darkgreen;
-    width: 400px;
+    /*background-color: darkgreen;*/
+    /*width: 500px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .subheading {
-    height: 35px;
-    background-color: aqua;
+    height: 50px;
+    /*background-color: aqua;*/
+}
+
+.search-panel {
+    border: orange 2px solid;
+    margin-right: 10px;
+    border-radius: 4px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    color: grey;
+    border: none;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.search-button {
+    background-color: orange;
+    padding: 5px 16px 5px 16px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 540;
+}
+
+.subheading:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.sign-button {
+    margin-right: 10px;
+    background-color: orange;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+    text-decoration: unset;
+    color: white;
+    font-size: 18px;
+}
+
+.subheading:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*padding-bottom: 15px;*/
+    /*padding-right: 10px;*/
+}
+
+.menu-button {
+    text-decoration: unset;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px;
 }
 
 .body-parent {
@@ -50,11 +120,15 @@
 
 .menu {
     width: 250px;
-    background-color: crimson;
+    /*background-color: crimson;*/
+    border-top: orange 1px solid;
+    border-right: orange 1px solid;
 }
 
 .body {
-    background-color: orange;
+    /*background-color: orange;*/
     width: 100%;
+    border-top: orange 1px solid;
+    border-left: orange 1px solid;
 }
 
