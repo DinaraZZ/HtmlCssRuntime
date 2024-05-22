@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.heading {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subheading {
+    width: 1000px;
+    background-color: orange;
+    display: flex;
+}
+
+.heading-logo {
+    width: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.body {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subbody {
+    width: 1000px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-panel {
+    width: 630px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-panel {
+    width: 370px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
