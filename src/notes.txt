@@ -97,3 +97,11 @@ row, row-reverse, column, column-reverse
 justify-content(по основной оси): / align-items(по поперечной оси)
 flex-start/end/center/space-between
 space-between - Будут занимать все пространство, растянется
+
+
+        ПСЕВДО-КЛАССЫ
+Дополнительные селекторные применяемые к основному.
+:hover - наведение на элемент курсором
+:active - нажатие на элемент ЛКМ (пока в нажатом состоянии)
+:focus - фокусировка на элементе (интерактивные элементы: input, textarea, select)
+:focus-within - у внутренних классов сработал focus, класс задается для родителя
