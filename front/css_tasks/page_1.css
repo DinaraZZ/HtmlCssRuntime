@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Arial;
+    background-color: #edeef0;
 }
 
 .page {
@@ -15,20 +16,19 @@
 .stripe {
     height: 50px;
     width: 100%;
-    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 5px red solid;
+    background-color: white;
 }
 
 .stripe1 {
     width: 1000px;
-    border: red 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: white;
 }
 
 
@@ -39,17 +39,14 @@
 
 .parent {
     width: 1000px;
-    height: 1000px;
     margin: 0 auto;
-    background-color: gainsboro;
+    background-color: #edeef0;
     display: flex;
     flex-direction: row;
-    border: 5px red solid;
 }
 
 .block1 {
     width: 600px;
-    border: 5px red solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +62,6 @@
     margin-top: 20px;
     font-weight: bolder;
     font-size: 24px;
-    border: 1px red solid;
 }
 
 .text1 {
@@ -75,28 +71,28 @@
     align-items: center;
     width: 100%;
     height: 60px;
-    border: 1px red solid;
+    color: #626d7a;
 }
 
 .picture-box {
     display: flex;
     flex-direction: row;
-    border: red 1px solid;
     margin-top: 20px;
 }
 
 .picture-box img:nth-child(1) {
     height: 390px;
+    background-color: unset;
 }
 
 .picture-box img:nth-child(2) {
     height: 410px;
     margin-left: -31px;
+    background-color: unset;
 }
 
 .store-link-box {
     width: 350px;
-    border: red 1px solid;
     height: 30px;
     margin-top: 5px;
     padding-left: 3px;
@@ -111,7 +107,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: red 1px solid;
     color: #3770B1;
 }
 
@@ -127,28 +122,39 @@
 
 .block2 {
     width: 400px;
-    border: 5px red solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .white-block {
-    height: 600px;
-    background-color: white;
+    width: 340px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: stretch;
+    align-items: stretch;
+    padding: 20px 24px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.logo1 {
+    height: 45px;
 }
 
 .box {
-    height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    border: red 1px solid;
+    padding-top: 14px;
+    margin-bottom: 18px;
+    background-color: white;
+}
+
+.box img {
+    width: 48px;
+    background-color: white;
 }
 
 .sign-in-title {
@@ -157,15 +163,22 @@
     justify-content: center;
     font-weight: bolder;
     font-size: 24px;
-    border: 1px red solid;
+    background-color: white;
 }
 
 .signin-panel {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    margin-top: 16px;
+    margin-top: 24px;
+    background-color: white;
+}
+
+.save-checkbox label {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
 }
 
 .input-login {
@@ -182,9 +195,9 @@
     flex-direction: row;
     align-items: center;
     margin-top: 12px;
-    cursor: pointer;
     color: #818c99;
     font-size: 12px;
+    background-color: white;
 }
 
 .save-checkbox input {
@@ -204,18 +217,22 @@
     margin-left: 4px;
 }
 
-.signin-panel button {
-    background-color: #0077ff;
+.button-item {
     border-radius: 8px;
     padding-top: 8px;
     padding-bottom: 8px;
     border: none;
-    margin-top: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #0077ff;
+    margin-top: 28px;
 }
 
 .underline {
     height: 1px;
-    width: 80%;
     background-color: #939ca9;
     margin-top: 24px;
 }
@@ -224,29 +241,108 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 22px;
+    background-color: white;
 }
 
 .qr-img {
-    width: 68px;
+    width: 75px;
+    margin-left: 3px;
+    background-color: white;
+}
+
+.qr-text {
+    margin-left: 5px;
+    background-color: white;
 }
 
 .qr-text div:nth-child(1) {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
+    background-color: white;
 }
 
 .qr-text div:nth-child(2) {
     font-size: 12px;
     color: #6d7885;
     margin-bottom: 6px;
+    background-color: white;
 }
 
 .qr-text a {
     color: #2d81e0;
     font-size: 12px;
+    background-color: white;
 }
 
-.logo1 {
-    height: 45px;
+.button-block {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.green {
+    background-color: #4bb34b;
+}
+
+.button-block:nth-child(2) {
+    margin-top: 10px;
+}
+.transparent {
+    border: #3770B1 1px solid;
+    color: #3770B1;
+    background-color: white;
+}
+
+.text2 {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #99a2ad;
+    background-color: white;
+}
+
+.text2 span {
+    background-color: white;
+}
+
+.text2 a {
+    color: #626d7a;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+.block2 > a {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #818c99;
+}
+
+.bottom-stripe {
+    width: 1000px;
+    margin: 0 auto;
+    color: #626d7a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.bottom-stripe a {
+    color: #2a5885;
+    padding-right: 6px;
+    font-size: 14px;
+}
+
+.vk-refs a {
+    padding-right: unset;
+}
+
+.vk-refs span {
+    font-size: 14px;
 }
