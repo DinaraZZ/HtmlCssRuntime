@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    border: 15px dotted crimson;
+}
+
+.box.yellow {
+    background: yellow;
+}
+
+.box.green {
+    background: yellowgreen;
+}
