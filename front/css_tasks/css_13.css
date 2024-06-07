@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    display: inline-flex;
+}
+
+.menu-block {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.menu-line {
+    display: flex;
+    background-color: indianred;
+    width: 350px;
+}
+
+.menu-line.visible {
+    position: relative;
+}
+
+.transparent {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.menu-block:hover .visible > .text {
+    margin-left: 25px;
+}
+
+.menu-block:hover .transparent {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: .5s;
+    top: 53px;
+}
+
+.line {
+    width: 10px;
+    background-color: brown;
+}
+
+.text {
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    transition-duration: .5s;
+}
+
+.transparent2 {
+    display: flex;
+    flex-direction: row;
+}

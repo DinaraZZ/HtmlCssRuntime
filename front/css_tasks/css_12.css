@@ -6,6 +6,12 @@
     text-decoration: none;
 }
 
+.block1 {
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+}
+
 a {
     /*margin-top: 100px;*/
     /*margin-left: 100px;*/
@@ -31,7 +37,7 @@ a {
 }
 
 a:hover .border {
-    width: 250px;
+    width: 100%;
 }
 
 .line {
@@ -48,6 +54,7 @@ a:hover .line {
 
 .text {
     margin-left: 70px;
+    margin-right: 10px;
 }
 
 a:hover .text {
