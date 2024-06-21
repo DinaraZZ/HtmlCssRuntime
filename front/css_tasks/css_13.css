@@ -42,7 +42,6 @@ a {
 
 .menu-block:hover .visible > .text {
     margin-left: 25px;
-    transition-duration: .5s;
 }
 
 .menu-block:hover .transparent {
@@ -62,6 +61,8 @@ a {
     color: white;
     font-size: 20px;
     font-family: Arial;
+    transition-duration: .5s;
+
 }
 
 .transparent2 {
@@ -77,6 +78,7 @@ a {
 .transparent2:hover > .transparent3 {
     top: 0;
     transition-duration: .5s;
+    opacity: 1;
 }
 
 .transparent2:hover > .transparent3 > a {
@@ -89,7 +91,6 @@ a {
 
 .transparent2:hover > a > .menu-line > .text {
     margin-left: 25px;
-    transition-duration: .5s;
 }
 
 .transparent3 {
@@ -98,5 +99,6 @@ a {
     position: absolute;
     top: 60px;
     left: 350px;
+    opacity: 0;
     visibility: hidden;
 }
