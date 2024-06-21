@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.menu-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    height: 64px;
+    font-family: Arial;
+    font-size: 14px;
+    border-top: 1px solid #99a2ad;
+    border-bottom: 1px solid #99a2ad;
+}
+
+.logo {
+    width: 82px;
+    margin-left: 170px;
+}
+
+.menu-block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.arrow-img {
+    width: 12px;
+    margin-left: 3px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #99a2ad solid 2px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.search-input {
+    border: none;
+    margin-left: 5px;
+    height: 100%;
+}
+
+.loupe-img {
+    width: 20px;
+    margin-left: 10px;
+}
