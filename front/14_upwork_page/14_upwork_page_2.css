@@ -207,21 +207,27 @@
 
 /**/
 .business-block {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 .info-block {
-    border: black 1px solid;
+    border-radius: 8px;
 }
 
 .left {
     background-color: #f2f7f2;
     padding: 48px 0 48px 30px;
+    margin-right: 30px;
+    position: relative;
+    z-index: -1;
 }
 
 .right {
     background-color: #14a800;
+    padding: 0 26px 0 84px;
+    z-index: -2;
 }
 
 .block-title {
@@ -262,21 +268,29 @@
     font-size: 16px;
 }
 
+.person-img {
+    position: absolute;
+    width: 310px;
+    top: 24px;
+    left: 580px;
+}
+
 .block-title-r {
     font-size: 33px;
     color: #ffffff;
     font-weight: bold;
+    margin-top: 236px;
 }
 
 .icon-img-r {
     width: 32px;
 }
 
-.title-r:nth-child(1) {
+.title-r-1 {
     font-size: 33px;
 }
 
-.title-r:nth-child(2) {
+.title-r-2 {
     font-size: 38px;
 }
 
